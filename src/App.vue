@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <header2048></header2048>
+    <game-board></game-board>  
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Header2048 from "./components/Header2048.vue";
+import GameBoard from "./components/GameBoard.vue"
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    Header2048,
+    GameBoard
   }
 };
 </script>
