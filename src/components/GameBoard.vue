@@ -111,12 +111,13 @@ export default {
                                     this.hasAdded[i][k] = true
                                 }
                             }
-                            for (let i = 0; i < 4; i++) {
-                                for (let j = 0; j < 4; j++) {
-                                    this.hasAdded[i][j] = false
-                                }
-                            }
+
                         }
+                    }
+                }
+                for (let i = 0; i < 4; i++) {
+                    for (let j = 0; j < 4; j++) {
+                        this.hasAdded[i][j] = false
                     }
                 }
                 this.generateOneNumber()
@@ -143,12 +144,13 @@ export default {
                                     this.hasAdded[k][j] = true
                                 }
                             }
-                            for (let i = 0; i < 4; i++) {
-                                for (let j = 0; j < 4; j++) {
-                                    this.hasAdded[i][j] = false
-                                }
-                            }
+
                         }
+                    }
+                }
+                for (let i = 0; i < 4; i++) {
+                    for (let j = 0; j < 4; j++) {
+                        this.hasAdded[i][j] = false
                     }
                 }
                 this.generateOneNumber()
@@ -175,12 +177,13 @@ export default {
                                     this.hasAdded[i][k] = true
                                 }
                             }
-                            for (let i = 0; i < 4; i++) {
-                                for (let j = 0; j < 4; j++) {
-                                    this.hasAdded[i][j] = false
-                                }
-                            }
+
                         }
+                    }
+                }
+                for (let i = 0; i < 4; i++) {
+                    for (let j = 0; j < 4; j++) {
+                        this.hasAdded[i][j] = false
                     }
                 }
                 this.generateOneNumber()
@@ -207,12 +210,13 @@ export default {
                                     this.hasAdded[k][j] = true
                                 }
                             }
-                            for (let i = 0; i < 4; i++) {
-                                for (let j = 0; j < 4; j++) {
-                                    this.hasAdded[i][j] = false
-                                }
-                            }
+
                         }
+                    }
+                }
+                for (let i = 0; i < 4; i++) {
+                    for (let j = 0; j < 4; j++) {
+                        this.hasAdded[i][j] = false
                     }
                 }
                 this.generateOneNumber()
