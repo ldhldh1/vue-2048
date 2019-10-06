@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <h1>2048</h1>
-        <button>New Game</button>
+        <button @click=initGame()>New Game</button>
         <p>score:{{score}}</p>
     </div>
 </template>
@@ -11,6 +11,12 @@
         data() {
             return {
                 score: 0
+
+            }
+        },
+        methods: {
+            initGame(boardNums) {
+
             }
         }
     };
